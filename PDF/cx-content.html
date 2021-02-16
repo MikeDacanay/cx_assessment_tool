@@ -3,22 +3,31 @@
   <head>
   <title>CX Assessment Results</title>
   <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-  </head>
-  <body>
-      <section id="page1">
-             <div class="racetrack"><img src="/assets/o-tag.png"></div>
-             <div class="section-inner">
-                       <div class="logo"><img src="/assets/logo-o-mktg-cloud.png"></div>
-             <div class="red-line"></div>
-             <h1>Marketing Maturity<br> Assessment Report</h1>
-             <h2 >for <span id="company_name"> </span></h2>
-             <a class="button green-button" href="#broadcast-page-1"><span>Read Report</span></a>   
-             
-             </div>
+  <meta charset="UTF-8">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156691419-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-156691419-1');
+</script>
+
+  </head>
+    <body>
+     <section id="page1">
+             <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+             <div class="section-inner">
+                       <div class="logo"><img src="/assets/logo-o-mktg-cloud.png" alt="Oracle logo"></div>
+             <div class="red-line"></div>
+             <h1>Marketing Maturity:<br> Recommendation Report</h1>
+             <h2 >for <span id="company_name"> </span></h2>
+             <a class="button green-button" href="#broadcast-page-1"><span>Read Report</span></a>
+          </div>
       </section>
       <section id="broadcast-page-1">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
                <div class="two-col">
                    <div class="col-left padded">
                          <div class="col-inner">
@@ -26,7 +35,7 @@
                      <div id="summary_content"></div> 
                    </div>
                    </div>
-                   <div class="col-right">
+                   <div class="col-right" id="spider-col">
                        <div class="cloud-chart" id="overall-cloud">
                             <div class="score-holder" id="score-holder">
                                 <div class="cloud-score"><span class="txt-21">Maturity<br> Score<br/></span><span class="cloud-score-numerals" id="total-cloud-score">79</span><span class="cloud-score-numerals" >/100</span></div>
@@ -61,7 +70,7 @@
                             </div>
                              <div class="kpi">
                                   <div class="arrow-up"></div>
-                                  <span>Customer Database Growth</span>
+                                  <span>Customer database growth</span>
                                  <div class="checkmark"></div>
                             </div>
                             <div class="kpi">
@@ -77,13 +86,12 @@
                               
                       </div>
                   </div></div></div>
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
           <div class="two-col">
                    <div class="col-left">
                        <div class="col-inner">
                             <h3 class="width-150 h3-para-spacing">Broadcast Marketing Score</h3>
-                           <h5>Automate marketing, improve efficiencies and integrate
-with CRM.</h5>
+                           <h5>Automate marketing, improve efficiencies and integrate with CRM.</h5>
                              <div id="broadcast_content"></div>
                        </div>
               </div>
@@ -100,30 +108,6 @@ with CRM.</h5>
                    </div>
           </div>
       </section>
-      <section id="broadcast-page-3">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-           <h3 class="rec-title">Recommendations</h3>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="broadcast-recs-1">
-                                 <div class="top-block">
-                                     <p class="reccomendations_text">Your curated list of recommendations based upon your answers to the Broadcast Marketing section of the Marketing Maturity Assessment Tool. </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-                    <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="broadcast-recs-2">
-                                 <div class="top-block">
-                                     <p class="reccomendations_text"> </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-               </div>
-      </section>
       <section id="broadcast-page-4">
           <div class="racetrack"><img src="/assets/o-tag.png"></div>
        <h3 class="rec-title">Marketing Excellence</h3>
@@ -132,8 +116,7 @@ with CRM.</h5>
                          <div class="col-inner">
                              <div class="rec-holder" id="broadcast-congrads-1">
                                  <div class="top-block">
-                                     <p class="reccomendations_text" id="broadcast-rec">Your curated list of what you are doing well based upon
-your answers to the Broadcast Marketing section of the Marketing Maturity Assessment Tool. </p>
+                                     <p class="reccomendations_text" id="broadcast-rec">Congratulations, based on your responses to the Broadcast Marketing Maturity section, your company gets top marks for marketing excellence in the areas that follow.</p>
                                  </div>
                              </div>
                        </div>
@@ -141,6 +124,30 @@ your answers to the Broadcast Marketing section of the Marketing Maturity Assess
                     <div class="col-left">
                          <div class="col-inner">
                              <div class="rec-holder" id="broadcast-congrads-2">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+               </div>
+      </section>
+      <section id="broadcast-page-3">
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+           <h3 class="rec-title">Recommendations for Improvement</h3>
+          <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="broadcast-recs-1">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text" id="broadcast-rec2">Listed below are your personalized action items outlining the foundational and tactical areas needed to master Broadcast Marketing Maturity. </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+                    <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="broadcast-recs-2">
                                  <div class="top-block">
                                      <p class="reccomendations_text"> </p>
                                  </div>
@@ -167,7 +174,7 @@ your answers to the Broadcast Marketing section of the Marketing Maturity Assess
                             </div>
                              <div class="kpi">
                                   <div class="arrow-up"></div>
-                                  <span>Customer Database Growth</span>
+                                  <span>Customer database growth</span>
                                  <div class="checkmark"></div>
                             </div>
                             <div class="kpi">
@@ -179,7 +186,7 @@ your answers to the Broadcast Marketing section of the Marketing Maturity Assess
                        <div class="three-col">
                                 <div class="driver">
                                   <div class="icon-driver"></div>
-                                  <span>Engage and acquire customers</span>
+                                  <span>Engage and Acquire Customers</span>
                             </div>
                                  <div class="kpi">
                                   <div class="arrow-up"></div>
@@ -229,51 +236,7 @@ your answers to the Broadcast Marketing section of the Marketing Maturity Assess
               </div>
            </div>
       </section>
-      <section id="responsive-page-2"  class="responsive">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-          <h3 class="rec-title">Recommendations</h3>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="responsive-recs-1">
-                                 <div class="top-block">
-                                     <p class="reccomendations_text">Your curated list of recommendations based upon your answers to the Responsive Marketing section of the Marketing Maturity Assessment Tool. </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-                    <div class="col-left padded">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="responsive-recs-2">
-                                 <div class="top-block">
-                                     <p class="reccomendations_text"> </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-               </div>
- </section>
-      <section id="responsive-page-3"  class="responsive">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-          <h3 class="rec-title">Recommendations (cont.)</h3>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="responsive-recs-3">
-
-                             </div>
-                       </div>
-                   </div>
-                    <div class="col-right padded">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="responsive-recs-4">
-
-                             </div>
-                       </div>
-                   </div>
-               </div>
- </section>
-        <section id="responsive-page-4">
+              <section id="responsive-page-4">
           <div class="racetrack"><img src="/assets/o-tag.png"></div>
             <h3 class="rec-title">Marketing Excellence</h3>
             <div class="two-col">
@@ -281,8 +244,7 @@ your answers to the Broadcast Marketing section of the Marketing Maturity Assess
                          <div class="col-inner">
                              <div class="rec-holder" id="responsive-congrads-1">
                                  <div class="top-block">
-                                     <p class="reccomendations_text" id="responsive-rec">Your curated list of what you are doing well based upon
-your answers to the Responsive Marketing section of the Marketing Maturity Assessment Tool. </p>
+                                     <p class="reccomendations_text" id="responsive-rec">Congratulations, based on your responses to the Responsive Marketing Maturity section, your company gets top marks for marketing excellence in the areas that follow. </p>
                                  </div>
                              </div>
                        </div>
@@ -300,7 +262,7 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
       </section>
       <section id="responsive-page-5">
           <div class="racetrack"><img src="/assets/o-tag.png"></div>
-       <h3 class="rec-title">Marketing Excellence (cont.)</h3>
+       <h3 class="rec-title">Marketing Excellence <span class="txt-18">(cont.)</span></h3>
           <div class="two-col">
                    <div class="col-left">
                          <div class="col-inner">
@@ -318,6 +280,45 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                    </div>
                </div>
       </section>
+      <section id="responsive-page-2"  class="responsive">
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+          <h3 class="rec-title">Recommendations for Improvement</h3>
+          <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="responsive-recs-1">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text" id="responsive-rec2">Listed below are your personalized action items outlining the remaining strategies and advanced tactics needed to master Responsive Marketing Maturity.</p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+                    <div class="col-left padded">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="responsive-recs-2">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+               </div>
+ </section>
+        <section id="responsive-page-3"  class="responsive">
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+          <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                    <h3 class="width-110">Recommendations <span class="txt-18">(cont.)</span></h3>
+                             <div class="rec-holder" id="responsive-recs-3"></div>
+                       </div>
+                   </div>
+                   <div class="col-right">
+                        <div class="col-inner rec-holder" id="responsive-recs-4"> </div>
+              </div>
+               </div>
+        </section>
+
        <section id="relationship-page-1" class="relationship">
           <div class="bottom-image">
                   <div class="bottom-content">
@@ -347,7 +348,7 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                        <div class="three-col">
                                 <div class="driver">
                                   <div class="icon-driver"></div>
-                                  <span>Engage and acquire customers</span>
+                                  <span>Engage and Acquire Customers</span>
                             </div>
                                  <div class="kpi">
                                   <div class="arrow-up"></div>
@@ -379,12 +380,12 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                               
                       </div>
                   </div></div></div>
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
           <div class="two-col">
                    <div class="col-left">
                        <div class="col-inner">
                             <h3 class="width-150 h3-para-spacing">Relationship Marketing Score</h3>
-                           <h5>Achieve cross channel consistency with advanced account engagement and AI driven decision making.</h5>
+                           <h5>AAchieve cross-channel consistency with advanced account engagement and AI-driven decision-making.</h5>
                              <div id="relationship_content"></div> 
                        </div>
               </div>
@@ -401,20 +402,61 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
               </div>
            </div>
       </section>
+              <section id="relationship-page-4"  class="relationship">
+       <h3 class="rec-title">Marketing Excellence</h3>
+         <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+      <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                             <p class="reccomendations_text" id="relationship-rec">Congratulations, based on your responses to the Relationship Marketing Maturity section, your company gets top marks for marketing excellence in the areas that follow.</p>
+                             <div class="rec-holder" id="relationship-congrads-1"></div>
+                       </div>
+                   </div>
+          <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="relationship-congrads-2">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+               </div>
+      </section>
+              <section id="relationship-page-5"  class="relationship">
+      <h3 class="rec-title">Marketing Excellence <span class="txt-18">(cont.)</span></h3>
+         <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+      <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="relationship-congrads-3"></div>
+                       </div>
+                   </div>
+          <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="relationship-congrads-4">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+               </div>
+      </section>
        <section id="relationship-page-2"  class="relationship">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
           <h3 class="rec-title">Recommendations for Improvement</h3>
           <div class="two-col">
                    <div class="col-left">
                          <div class="col-inner">
                              <div class="rec-holder" id="relationship-recs-1">
                                  <div class="top-block">
-                                     <p class="reccomendations_text">Your curated list of recommendations based upon your answers to the Relationship Marketing section of the Marketing Maturity Assessment Tool. </p>
+                                     <p class="reccomendations_text" id="relationship-rec2">Listed below are your personalized action items outlining the advanced engagement, data/AI and channel strategies needed to master Relationship Marketing Maturity.</p>
                                  </div>
                              </div>
                        </div>
                    </div>
-                    <div class="col-right padded">
+                    <div class="col-left padded">
                          <div class="col-inner">
                              <div class="rec-holder" id="relationship-recs-2">
                                  <div class="top-block">
@@ -426,59 +468,25 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                </div>
       </section>
       <section id="relationship-page-3"  class="relationship">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
           <div class="two-col">
                    <div class="col-left">
                          <div class="col-inner">
-                    <h3 class="width-110">Recommendations <span class="txt-18">(cont.)</span></h3>
-                             <div class="rec-holder" id="relationship-recs-3">
-                             
-                             </div>
+                    <h3 class="width-110">Recommendations<span class="txt-18">(cont.)</span></h3>
+                             <div class="rec-holder" id="relationship-recs-3"></div>
                        </div>
                    </div>
-                   <div class="col-right">
-                        <div class="col-inner rec-holder" id="relationship-recs-4">
-                       </div>
+                   <div class="col-left padded">
+                       <div class="col-inner">
+                        <div class="rec-holder" id="relationship-recs-4"> 
+                                    <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div></div>
+                           </div>
               </div>
                </div>
+        </section>
 
-      </section>
-      <section id="relationship-page-4"  class="relationship">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                    <h3>Marketing Excellence</h3>
-                             <p class="reccomendations_text" id="relationship-rec">Your curated list of what you are doing well based upon your answers to the <strong>Responsive Marketing</strong> section of the Marketing Maturity Assessment Tool.</p>
-                             <div class="rec-holder" id="relationship-congrads-1">
-                             
-                             </div>
-                       </div>
-                   </div>
-                   <div class="col-right">
-                        <div class="col-inner rec-holder" id="relationship-congrads-2">
-                       </div>
-              </div>
-               </div>
-      </section>
-      <section id="relationship-page-5" class="relationship">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                    <h3 class="width-110">Marketing Excellence <span class="txt-18">(cont.)</span></h3>
-                             <div class="rec-holder" id="relationship-congrads-3">
-                             
-                             </div>
-                       </div>
-                   </div>
-                   <div class="col-right">
-                        <div class="col-inner rec-holder" id="relationship-congrads-4">
-                       </div>
-              </div>
-               </div>
-
-      </section>
        <section id="lifecycle-page-1" class="lifecycle beyond">
           <div class="bottom-image">
               <div class="bottom-content">
@@ -488,6 +496,7 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                                 <div class="driver">
                                   <div class="icon-driver"></div>
                                   <span>Attract and Nurture Prospects</span>
+                                      <div class="checkmark"></div>
                             </div>
                                  <div class="kpi">
                                   <div class="arrow-up"></div>
@@ -495,7 +504,7 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                             </div>
                              <div class="kpi">
                                   <div class="arrow-up"></div>
-                                  <span>Customer Database Growth</span>
+                                  <span>Customer database growth</span>
                                  <div class="checkmark"></div>
                             </div>
                             <div class="kpi">
@@ -507,7 +516,7 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                          <div class="three-col">
                                 <div class="driver">
                                   <div class="icon-driver"></div>
-                                  <span>Engage and acquire customers</span>
+                                  <span>Engage and Acquire Customers</span>
                             </div>
                                  <div class="kpi">
                                   <div class="arrow-up"></div>
@@ -558,7 +567,7 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                          <div class="three-col">
                                 <div class="driver">
                                   <div class="icon-driver"></div>
-                                  <span>Single view of customer</span>
+                                  <span>Single View of Customer</span>
                             </div>
                                  <div class="kpi">
                                   <div class="arrow-up"></div>
@@ -571,12 +580,12 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
               
               
            </div>
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
           <div class="two-col">
                    <div class="col-left">
                        <div class="col-inner">
                             <h3 class="width-150 h3-para-spacing">Lifecycle Engagement Score</h3>
-                           <h5>Deliver a unifed brand experience across the customer lifecycle.</h5>
+                           <h5 class="width-110">Deliver a unifed brand experience across the customer lifecycle.</h5>
                              <div id="lifecycle_content"></div> 
                        </div>
               </div>
@@ -594,15 +603,60 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
               </div>
            </div>
       </section>
+               <section id="lifecycle-page-4"  class="lifecycle">
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+           <h3 class="rec-title">Marketing Excellence</h3>
+          <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="lifecycle-congrads-1">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text" id="lifecycle-rec">Congratulations, based on your responses to the Lifecycle Engagement Maturity section, your company gets top marks for marketing excellence in the areas that follow. </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+                    <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="lifecycle-congrads-2">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+               </div>
+      </section>
+    <section id="lifecycle-page-5"  class="lifecycle">
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+           <h3 class="rec-title">Marketing Excellence <span class="txt-18">(cont.)</span></h3>
+          <div class="two-col">
+                   <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="lifecycle-congrads-3"> 
+                             </div>
+                       </div>
+                   </div>
+                    <div class="col-left">
+                         <div class="col-inner">
+                             <div class="rec-holder" id="lifecycle-congrads-4">
+                                 <div class="top-block">
+                                     <p class="reccomendations_text"> </p>
+                                 </div>
+                             </div>
+                       </div>
+                   </div>
+               </div>
+      </section>
        <section id="lifecycle-page-2"  class="lifecycle">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
            <h3 class="rec-title">Recommendations for Improvement</h3>
           <div class="two-col">
                    <div class="col-left">
                          <div class="col-inner">
                              <div class="rec-holder" id="lifecycle-recs-1">
                                  <div class="top-block">
-                                     <p class="reccomendations_text">Your curated list of recommendations based upon your answers to the Lifecycle Engagement Marketing section of the Marketing Maturity Assessment Tool. </p>
+                                     <p class="reccomendations_text" id="lifecycle-rec2">The personalized list of action items outlines which of today’s hottest strategies for delivering unified brand experiences your company can employ to master Lifecycle Engagement Maturity.</p>
                                  </div>
                              </div>
                        </div>
@@ -619,15 +673,13 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                </div>
       </section>
        <section id="lifecycle-page-3"  class="lifecycle">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-          <h3 class="rec-title">Recommendations (cont.)</h3>
+          <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
+          <h3 class="rec-title">Recommendations <span class="txt-18">(cont.)</span></h3>
           <div class="two-col">
                    <div class="col-left">
                          <div class="col-inner">
                              <div class="rec-holder" id="lifecycle-recs-3">
-                                 <div class="top-block">
                                      <p class="reccomendations_text"></p>
-                                 </div>
                              </div>
                        </div>
                    </div>
@@ -636,30 +688,6 @@ your answers to the Responsive Marketing section of the Marketing Maturity Asses
                              <div class="rec-holder" id="lifecycle-recs-4">
                                  <div class="top-block">
                                      <p class="reccomendations_text"> </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-               </div>
-      </section>
-       <section id="lifecycle-page-4"  class="lifecycle">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-           <h3 class="rec-title">Marketing Excellence</h3>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="lifecycle-congrads-1">
-                                 <div class="top-block">
-                                     <p class="reccomendations_text" id="lifecycle-rec">Your curated list of what you are doing well based upon
-your answers to the Lifecycle Engagement Marketing section of the Marketing Maturity Assessment Tool. </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-                    <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="lifecycle-congrads-2">
-                                 <div class="top-block">
                                      <p class="reccomendations_text"> </p>
                                  </div>
                              </div>
@@ -667,30 +695,9 @@ your answers to the Lifecycle Engagement Marketing section of the Marketing Matu
                    </div>
                </div>
       </section>
-             <section id="lifecycle-page-5"  class="lifecycle">
-          <div class="racetrack"><img src="/assets/o-tag.png"></div>
-           <h3 class="rec-title">Marketing Excellence (cont.)</h3>
-          <div class="two-col">
-                   <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="lifecycle-congrads-3">
-                                
-                             </div>
-                       </div>
-                   </div>
-                    <div class="col-left">
-                         <div class="col-inner">
-                             <div class="rec-holder" id="lifecycle-congrads-4">
-                                 <div class="top-block">
-                                     <p class="reccomendations_text"> </p>
-                                 </div>
-                             </div>
-                       </div>
-                   </div>
-               </div>
-      </section>
+
       <section id="summary">
-           <div class="racetrack"><img src="/assets/o-tag.png"></div>
+           <div class="racetrack"><img src="/assets/o-tag.png" alt="Oracle logo"></div>
            <div class="section-inner">
       <h3 >Summary and Next Steps</h3>
           <div class="conclusion">
@@ -722,13 +729,9 @@ your answers to the Lifecycle Engagement Marketing section of the Marketing Matu
                        
                        </div>
                    </div>
-               
-               
-               
-               
                </div>
-               <div class="cta-holder"  >
-                   <a class="cta" id="cta-1" href="https://www.oracle.com/a/ocom/resources/oracle-ignite-guide-cross-channel-marketing.pdf" target="_blank">
+              <div class="cta-holder"  >
+                  <a class="cta" id="cta-1" href="https://www.oracle.com/a/ocom/resources/oracle-ignite-guide-cross-channel-marketing.pdf" target="_blank">
                        <div class="cta-title-holder">
                        <div class="cta-title" id="cta-title-dynamic">Go Further with Cross-Channel Marketing</div>
                        </div>
@@ -738,91 +741,20 @@ your answers to the Lifecycle Engagement Marketing section of the Marketing Matu
                        <div class="cta-title">Magic Quadrant for Multichannel Marketing Hubs</div>
                        </div>
                    </a>
-                      <a class="cta" id="cta-3" href="https://www.gartner.com/doc/reprints?id=1-1OJCRD8O&ct=190925&st=sb" target="_blank">
+                    <a class="cta" id="cta-3" href="https://www.gartner.com/doc/reprints?id=1-1OJCRD8O&ct=190925&st=sb" target="_blank">
                        <div class="cta-title-holder">
-                       <div class="cta-title">Magic Quadrant for CRM Lead Management
-</div>
+                       <div class="cta-title">Magic Quadrant for CRM Lead Management</div>
                        </div>
                    </a>
-               
                </div>
           </div>
       </section>
-      
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-      <script src="/javascript/Chart.js"></script>
-      <script type="text/javascript" src="/javascript/pdf.js"></script>
-      <script>
-      var ctx = document.getElementById('spiderChart').getContext('2d');
-var chart = new Chart(ctx, {
-    // The type of chart we want to create
-    type: 'radar',
-    defaultFontColor:'hotpink',
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="/javascript/Chart.js"></script>
+        <script  src="/javascript/pdf.js"></script>
+        
 
-    // The data for our dataset
-    data: {
-        labels: ['Broadcast', 'Responsive', 'Relationship', ['Lifecycle','Engagement']],
-        datasets: [{
-           label:'Component Maturity Score',
-            borderColor: 'rgb(0,0, 0)',
-            data: [BroadcastScore, ResponsiveScore, RelationshipScore, LifecycleScore]
-        }]
-    },
-
-    // Configuration options go here
-    options: {
-         scales: {
-             yAxes: [
-                 {
-                    scaleLabel: {
-                    display: false,
-                    },
-                 gridLines: {
-                     display:'false',
-                     color: 'transparent', 
-                     zeroLineColor: '#E5DBBE',
-                 },
-                 	ticks: {
-                        display:false,
-                       color: 'transparent'},
-             }]
-         },
-        scale: {
-            ticks: {
-                min: 0,
-                max: 100,
-                stepSize:25,
-                display: false,
-                fontColor: "#E5DBBE",
-            },
-            gridLines:{
-                lineWidth:2,
-                color:['#AE562C','#FACD62','#94AFAF','#41817E']
-            },
-            pointLabels:{
-                display: true,
-                fontColor:'#221F1F',
-                fontFamily:'OracleSans-Bold',
-                fontSize:'8',
-                fontStyle:'bold'
-            }
-            
-        },
-        legend:{
-            display:false
-        },
-           layout: {
-               padding: {
-                   left: 50,
-                   right: 50,
-                   top: 50,
-                   bottom: 50
-        }
-    }
-    }
-});</script>
-
-  </body>
+    </body>
 </html>
 

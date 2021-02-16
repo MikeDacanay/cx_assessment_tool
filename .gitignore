@@ -1,2 +1,6 @@
 node_modules
-PDF
+PDF/PDFReactor
+PDFReactor
+config.env
+/bin_dev/css
+/bin_dev/js

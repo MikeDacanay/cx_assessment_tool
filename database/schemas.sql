@@ -2,8 +2,8 @@
 CREATE TABLE users (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     created_at TIMESTAMP DEFAULT NOW(),
-    companyName VARCHAR(255) UNIQUE,
-    size INT,
+    companyName VARCHAR(255),
+    size BIGINT,
     industry VARCHAR(100),
     number_employees INT,
     country VARCHAR(255)

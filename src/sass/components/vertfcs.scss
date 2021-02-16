@@ -21,7 +21,6 @@
 
 		display: flex;
     flex-direction: column;
-    // justify-content: space-between;
 	}
 
 	&__input{
@@ -44,6 +43,16 @@
 				flex: 0 0 1.5rem;				
 			}
 		}
+
+		.panel--20 &,
+  	.panel--31 &,
+  	.panel--32 &,
+  	.panel--38 &,
+  	.panel--40 &{
+	  	@include bp($width-5){
+	  		margin-top: 1.1rem;
+	  	}
+  	}
 	}
 
 	&__button{
@@ -51,7 +60,6 @@
     border-radius: 50%;
     display: flex;
     cursor: pointer;
-    // height: 100%;
     height: 2.65rem;
     align-items: center;
     justify-content: center;
@@ -103,15 +111,21 @@
     align-items: center;
     height: 100%;
     width: max-content;
-    // cursor: pointer;
     position: relative;
-    // flex: 1;
 		@include bp($width-1){
   		width: 100%;
   	}
+  	.panel--20 &,
+  	.panel--31 &,
+  	.panel--32 &,
+  	.panel--38 &,
+  	.panel--40 &{
+	  	@include bp($width-5){
+	  		align-items: inherit;
+	  	}
+  	}
 	}
 	&__text{
-		// width: 39.5rem;
 		white-space: nowrap;
 		padding-left: 1.10rem;
     font-family: $font-reg;
@@ -131,27 +145,6 @@
 			@include bph(600){
 				font-size: 1rem;
 			}
-		}
-		
-		// .panel--31 &{
-		// 	@include bp($width-1){
-	 //  		white-space: normal;
-	 //  	}
-		// }	
-		// .panel--37 &{
-		// 	@include bp($width-1){
-	 //  		white-space: normal;
-	 //  	}
-		// }		  		
-		// .panel--38 &{
-		// 	@include bp($width-1){
-	 //  		white-space: normal;
-	 //  	}
-		// }		  
-		// .panel--40 &{
-		// 	@include bp($width-1){
-	 //  		white-space: normal;
-	 //  	}
-		// }		    			  	  
+		}    			  	  
 	}
 }
