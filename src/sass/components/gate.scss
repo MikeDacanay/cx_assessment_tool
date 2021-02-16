@@ -6,11 +6,13 @@
 		display: flex;
     align-items: center;
     justify-content: center;
-	  opacity: 0;
+	  // opacity: 0;
+	  display: none;
 	  transition: opacity 1s;
 	  &.fade-in{
 	  	z-index: 1000000;
-	    opacity: 1;
+	    // opacity: 1;
+	    display: flex;
 	  }		
 	}
 	&__form{
@@ -32,9 +34,9 @@
 		font-family: $font-reg;
 		font-size: 1rem;
     text-align: center;		
-    color: $color-grey-3;
+    color: $color-grey-2;
 		&--emp{
-			color: $color-grey-2;
+			color: $color-grey-4;
 			font-family: $font-b;	
 			font-size: 1.20rem;
 		}		
@@ -66,6 +68,9 @@
 		border-style: solid;
 		background: rgba(117, 156, 108,.2);
     border-width: 0;
+		&--1{
+			cursor: pointer;
+		}
 	}
 	&__submit{
 		-webkit-appearance: none;
@@ -103,4 +108,8 @@
 			display: block;
 		}
 	}
+}
+
+#gate__industry{
+	max-height: 50px;
 }

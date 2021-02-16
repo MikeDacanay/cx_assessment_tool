@@ -3,11 +3,7 @@ $width: 100%;
 .landing{
     &__container{
         margin: 0 auto;
-        margin-top: 5.70rem;
-        // $width: 60%;
-        // width: $width;
-        // height: 0;
-        // padding-bottom: ($width);   
+        margin-top: 5.70rem;           
         display: flex;   
         border: solid 0.10rem $color-white-1;
         border-radius: 50%;
@@ -223,14 +219,13 @@ $width: 100%;
                 padding: 0;
                 text-align: left;       
                 margin-top: 1.28rem;
-                font-size: 2.05rem;
-                // width: 41%;        
+                font-size: 2.05rem;                
                 width: 100%;                         
             }        
         }        
 
         @include bp($width-5){
-            height: auto;
+            height: 7.36rem;          
         }
     }       
     &__txt{
@@ -330,8 +325,8 @@ $width: 100%;
             margin-top: 16.7rem;
         }
         @include bp($width-5){
-            width: 24rem;
-            margin-top: 15.7rem;
+            width: 21rem;
+            margin-top: 16.7rem;
             @include bph(450){
                 margin-top: 15rem;
             }
@@ -340,10 +335,10 @@ $width: 100%;
         @include bp(405){
             width: 24rem;
             margin-top: 15.7rem;
+            height: 100%;
         }        
     }
-    &__img{
-        // display: none;
+    &__img{        
         background-image: url(../assets/graphics/down.svg);
         background-repeat: no-repeat;
         width: 1.5rem;
@@ -372,9 +367,6 @@ $width: 100%;
             @include bph(700){
                 margin-top: 1.85rem;
             }
-        }
-        // @include bp($width-5){
-        //     display: none;
-        // }
+        }        
     }
 }
